@@ -59,7 +59,7 @@ public class Win {
                 if (boardDisplay[2][1] == symbol)
                     return true;
             if (boardDisplay[1][0] == symbol)
-                if (boardDisplay[2][1] == symbol)
+                if (boardDisplay[1][2] == symbol)
                     return true;
         }
         if ((boardMove[0][0] == 1)  && (boardMove[1][0] == 2)) {

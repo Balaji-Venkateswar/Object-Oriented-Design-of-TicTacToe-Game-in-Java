@@ -1,4 +1,5 @@
 package com.tictactoe.game.domain;
+import java.util.Comparator;
 import java.util.HashMap;
 
 public class BoardMap3x3 implements IBoardmap {
@@ -21,4 +22,5 @@ public class BoardMap3x3 implements IBoardmap {
 
         return map;
     }
+
 }

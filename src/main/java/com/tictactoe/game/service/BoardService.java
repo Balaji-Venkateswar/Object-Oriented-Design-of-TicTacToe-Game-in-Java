@@ -2,6 +2,7 @@ package com.tictactoe.game.service;
 
 import com.tictactoe.game.domain.Board;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -22,7 +23,8 @@ public class BoardService {
             int value;
             try {
                 value = Integer.parseInt(input);
-            } catch (NumberFormatException nfe) {
+            }
+            catch (NumberFormatException nfe) {
                 System.out.println("Please enter only a number");
                 continue;
             }
@@ -41,6 +43,8 @@ public class BoardService {
             return new Object[]{boardDisplay, p1Position};
         }
     }
+
+
 
 
 

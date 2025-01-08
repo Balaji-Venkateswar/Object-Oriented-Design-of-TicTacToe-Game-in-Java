@@ -22,4 +22,17 @@ public class Player {
         return name;
     }
 
+
+    @Override
+    public boolean equals(Object O) {
+
+        if(O == null || getClass() != O.getClass())
+            return false;
+        Player that = (Player) O;
+        if (this.name.equals(that.name) && this.symbol == that.symbol)
+            return true;
+
+        return false;
+    }
+
 }
